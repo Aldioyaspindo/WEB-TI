@@ -1,0 +1,152 @@
+.text-orange{
+    color: #ff6500  ;
+}
+
+.bg-orange{
+    background-color: #ff6500;
+    color: white;
+}
+
+.btn-orange{
+    background-color: #ff6500;
+    color: white;
+}
+
+.border-5{
+    border: 5px solid #ff6500;
+}
+
+.shadow-hover:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+}
+
+.borders{
+    border-bottom: 5px solid #ff6500;
+    padding-bottom: 10px;
+    width: 500px;
+    margin: auto;
+}
+
+.hr-s{
+    border: 3px solid orangered;
+    width: 100px;
+    margin: 20px auto;
+}
+
+.hr-s1{
+    border: 3px solid orangered;
+    width: 100px;
+}
+
+.prestasi-header h3 {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 10px;
+    }
+  
+    .prestasi-header h3::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 5px; /* Ketebalan garis */
+      background-color: orange;
+    }
+
+    .size{
+        width: 1000px;
+    }
+
+    .img-j{
+        background-image: url(5039684-scaled.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .linear {
+        position: relative;
+      }
+      
+      .linear img {
+        width: 100%;
+        height: auto;
+      }
+      
+      .linear::after {
+        content: '';
+        position: absolute; /* Memposisikan gradien secara absolut */
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to top,
+          rgb(62, 62, 255) 0%,   /* Biru di bagian bawah */
+          rgba(0, 0, 255, 0) 30%    /* Transparan di atas */
+        );
+        pointer-events: none; /* Menghindari interaksi dengan gradien */
+        transition: opacity 0.5s ease; /* Transisi halus untuk opacity */
+      }
+
+      .linear:hover::after {
+        opacity: 0; /* Hilangkan gradien saat dihover */
+      }
+
+      .fit {
+        width: 100%;
+        height: 100px; /* Tentukan tinggi yang diinginkan */
+    }
+
+    .news-img-1 {
+      background-image: url('IMG_4633-scaled.jpg');
+      background-size: cover; /* Pastikan gambar memenuhi area */
+      background-position: center; /* Menempatkan gambar di tengah */
+      background-repeat: no-repeat; /* Agar gambar tidak diulang */
+      width: 100%;
+      height: 300px;
+      position: relative;
+  }
+
+  .news-img-2 {
+    background-image: url('pekan-it-scaled.jpg');
+    background-size: cover; /* Pastikan gambar memenuhi area */
+    background-position: center; /* Menempatkan gambar di tengah */
+    background-repeat: no-repeat; /* Agar gambar tidak diulang */
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+.news-img-3 {
+  background-image: url('Kuliah-Umum.jpeg');
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Menempatkan gambar di tengah */
+  background-repeat: no-repeat; /* Agar gambar tidak diulang */
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.news-img-4 {
+  background-image: url('pkm\ \(1\).jpg');
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Menempatkan gambar di tengah */
+  background-repeat: no-repeat; /* Agar gambar tidak diulang */
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.news-img-5 {
+  background-image: url('hack4.png');
+  background-size: cover; /* Pastikan gambar memenuhi area */
+  background-position: center; /* Menempatkan gambar di tengah */
+  background-repeat: no-repeat; /* Agar gambar tidak diulang */
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
