@@ -69,13 +69,13 @@
     .linear {
         position: relative;
       }
-      
+
       .linear img {
         width: 100%;
         height: auto;
       }
       
-      .linear::after {
+.linear::after {
         content: '';
         position: absolute; /* Memposisikan gradien secara absolut */
         top: 0;
@@ -91,16 +91,16 @@
         transition: opacity 0.5s ease; /* Transisi halus untuk opacity */
       }
 
-      .linear:hover::after {
+.linear:hover::after {
         opacity: 0; /* Hilangkan gradien saat dihover */
       }
 
-      .fit {
+.fit {
         width: 100%;
         height: 100px; /* Tentukan tinggi yang diinginkan */
     }
 
-    .news-img-1 {
+.news-img-1 {
       background-image: url('IMG_4633-scaled.jpg');
       background-size: cover; /* Pastikan gambar memenuhi area */
       background-position: center; /* Menempatkan gambar di tengah */
@@ -110,7 +110,7 @@
       position: relative;
   }
 
-  .news-img-2 {
+.news-img-2 {
     background-image: url('pekan-it-scaled.jpg');
     background-size: cover; /* Pastikan gambar memenuhi area */
     background-position: center; /* Menempatkan gambar di tengah */
@@ -150,3 +150,22 @@
   position: relative;
 }
 
+width-image{
+  width: 20px;
+}
+
+.fontsize{
+  font-size: 100px;
+}
+
+.drop-cap {
+  float: left;
+  font-size: 4em;  /* Ukuran besar untuk huruf awal */
+  line-height: 0.8;  /* Atur jarak antar baris */
+  margin-right: 10px;  /* Jarak antara huruf besar dan teks lainnya */
+  font-weight: bold;  /* Menjadikan huruf lebih tegas */
+}
+
+.text-justify {
+  text-align: justify;
+}
